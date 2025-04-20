@@ -1,0 +1,110 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/index/home",
+			"style": {
+				"navigationBarTitleText": "Home"
+			}
+		},
+		{
+			"path": "pages/index/message",
+			"style": {
+				"navigationBarTitleText": "Message"
+			}
+		},
+		{
+			"path": "pages/index/hospital",
+			"style": {
+				"navigationBarTitleText": "Hospital"
+			}
+		},
+		{
+			"path" : "pages/index/users",
+			"style" : 
+			{
+				"navigationBarTitleText" : "Users"
+			}
+		},
+		{
+			"path": "pages/index/results"
+			
+		},
+		
+		{
+			"path" : "pages/index/newpage"
+			
+		},
+		{
+			"path": "pages/index/aitcm"
+		},
+		{
+			"path": "pages/index/report"
+		},
+		{
+			"path": "pages/index/test"
+		}
+		
+	],
+	"tabBar": {
+		"color": "#666F80",
+		"selectedColor": "#7737FE",
+		// #ifdef APP-PLUS || H5
+		"borderStyle": "#D8DAE6",
+		"blurEffect": "light",
+		// #endif
+		// #ifdef MP
+		"borderStyle": "black",
+		// #endif
+		"iconWidth": "24px",
+		"fontSize": "11px",
+		"spacing": "5px",
+		"height": "66px",
+		"list": [
+			{
+				"pagePath": "pages/index/home",
+				"iconPath": "static/tabBar/home.png",
+				"selectedIconPath": "static/tabBar/home2.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/index/message",
+				"iconPath": "static/tabBar/message.png",
+				"selectedIconPath": "static/tabBar/message2.png",
+				"text": "统计"
+			},
+			{
+				"pagePath": "pages/index/hospital",
+				"iconPath": "static/tabBar/hospital.png",
+				"selectedIconPath": "static/tabBar/hospital2.png",
+				"text": "我的"
+			},
+			{
+				"pagePath": "pages/index/users",
+				"iconPath": "/static/tabBar/user.png",
+				"selectedIconPath": "/static/tabBar/user2.png",
+				"text": "users"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+},
+
+"easycom": {
+  "autoscan": true,
+  "custom": {
+    "^u-(.*)": "uview-plus/components/u-$1/u-$1.vue"
+  }
+}
+
